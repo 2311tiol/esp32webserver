@@ -7,7 +7,7 @@ bme = BME280.BME280(i2c=i2c)
 #while True:
   #print(bme.temperature, bme.pressure, bme.humidity)
   #time.sleep(1)
-#Har kommentert ut linjen over fordi jeg vil ikke at den skal lese dataene rett i putty, men på webserveren
+#Har kommentert ut linjen over fordi jeg vil ikke at den skal printe dataene rett i putty, men på webserveren
 def read_sensor():
   global temp, temp_percentage, hum, pressure
   temp = temp_percentage = hum = 0
