@@ -16,6 +16,7 @@ def read_sensor():
   temp_percentage = (float(temp)+6)/(40+6)*(100)
   pressure = bme.pressure
 #Definerer hva variablene skal lese fra
+#Du kan simulere denne html kode i test.html
 
 def web_page():
   html = """
